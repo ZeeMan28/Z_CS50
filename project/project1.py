@@ -90,10 +90,7 @@ def blackjack(x):
                 return 0
         elif total_dealer == total_player:
             return 2
-        # else:
-        #     print("Got it")
 
-        time.sleep(0.5)
 
             #CHECKING FOR RESULT WITH PLAYER'S CARDS.......................
         if total_player > 21:
