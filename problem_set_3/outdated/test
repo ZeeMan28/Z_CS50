@@ -1,0 +1,10 @@
+q = input()
+
+q = q.replace("/", "")
+
+
+if q.isnumeric():
+    print(q)
+else:
+    print("bad")
+
